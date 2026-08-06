@@ -73,4 +73,4 @@ jobs:
           kubectl apply -f k8s/service.yaml
           kubectl apply -f k8s/ingress.yaml
           
-          kubectl rollout restart deployment/backend-api -n ns-franck-barry
+          kubectl rollout restart deployment/backend-api -n franck-barry
